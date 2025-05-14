@@ -1,6 +1,6 @@
 public class PasswordValidator {
     private static final int MIN_LENGTH = 8;
-    private static final String DIGIT_REGEX = ".*\\d.*"; // Регулярное выражение для проверки наличия хотя бы одной цифры
+    private static final String DIGIT_REGEX = ".*\\d.*";
 
     // Статический метод для проверки пароля
     public static boolean validate(String password) {
